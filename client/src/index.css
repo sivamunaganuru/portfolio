@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* After: Tailwind */
+body {
+  @apply font-sans  text-gray-600; 
+}
+
+
+/* After: Tailwind */
+h1 {
+  @apply text-9xl leading-none; /* You may need to adjust the exact sizes in your config */
+}
+
+.bg-primary {
+  @apply bg-custom-orange; /* Adjust the color based on your palette */
+}
+
+a {
+  @apply text-orange-600;
+}
+a:hover, a:focus, a:active {
+  @apply text-orange-700; /* Adjust the color based on your palette */
+}
