@@ -2,8 +2,8 @@ import React from 'react'
 
 const Education = () => {
   return (
-    <section className=" p-6 lg:p-12 " id="education">
-      <div className="flex flex-col justify-center h-screen gap-5">
+    <section className="flex flex-col justify-center min-h-screen p-6 lg:p-12"  id="education">
+      <div className="w-full max-w-4xl">
         <h2 className="text-2xl md:text-6xl font-bold font-serif mb-5">Education</h2>
 
         {/* Arizona State University */}
@@ -18,9 +18,10 @@ const Education = () => {
           </div>
         </div>
 
+
         {/* National Institute of Technology Karnataka */}
         <div className="flex flex-col md:flex-row">
-          <div className="flex-1">
+          <div className="flex-1 mr-auto">
             <h3 className="text-xl font-semibold mb-1">Bachelor Of Technology in Electrical And Electronics Engineering</h3>
             <div className="text-custom-orange mb-3">NATIONAL INSTITUTE OF TECHNOLOGY KARNATAKA - Surathkal, India</div>
             <p>CGPA: 8.52/10.00</p>

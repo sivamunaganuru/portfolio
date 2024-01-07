@@ -3,9 +3,9 @@ import { FaFacebookF, FaTwitter, FaLinkedinIn, FaGithub } from 'react-icons/fa';
 
 const About = () => {
   return (
-    <section className="flex flex-col items-center justify-center h-screen p-6 lg:p-12" id="about">
-      <div className="">
-        <h1 className="text-2xl md:text-6xl mb-4 font-bold font-serif">Siva{' '}
+    <section className="flex flex-col justify-center min-h-screen p-6 lg:p-12"  id="about">
+      <div className="w-full max-w-4xl">
+        <h1 className="text-2xl md:text-6xl font-bold font-serif mb-5">Siva{' '}
           <span className="text-custom-orange">Munaganuru</span>
         </h1>
         <div className="text-lg mb-10 font-serif">

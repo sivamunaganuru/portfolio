@@ -1,7 +1,7 @@
 const Experience = () => {
   return (
-    <section className="flex flex-col p-6 lg:p-12" id="experience">
-      <div className="my-auto">
+    <section className="flex flex-col justify-center min-h-screen p-6 lg:p-12"  id="experience">
+      <div className="w-full max-w-4xl">
         <h2 className="text-2xl md:text-6xl font-bold font-serif mb-5">Experience</h2>
 
         {/* Arizona State University */}

@@ -4,8 +4,9 @@ import { SiExpress, SiAmazonaws, SiGooglecloud, SiDocker, SiDjango, SiNextdotjs,
 import React from 'react';
 const Skills = () => {
   return (
-    <section className=" p-6 lg:p-12" id="skills">
-      <div className="flex flex-col justify-center h-screen gap-5">
+    
+      <section className="flex flex-col justify-center min-h-screen p-6 lg:p-12" id="skills">
+      <div className="w-full max-w-4xl">
         <h2 className="text-2xl md:text-6xl font-bold font-serif mb-5">Technical Skills</h2>
         {/* Frameworks */}
         <div className="flex flex-col mb-4">

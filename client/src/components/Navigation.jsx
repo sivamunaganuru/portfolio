@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { Link,useNavigate } from 'react-router-dom';
 import {FaBars, FaLinkedinIn, FaGithub, FaTwitter } from 'react-icons/fa';
-import profilepic from '../assets/WIN_20210121_13_01_59_Pro.jpg';
+import profilepic from '../assets/profilepic.jpg';
 
 const Navigation = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -28,7 +28,7 @@ const Navigation = () => {
         </div>
       
         <div className="lg:hidden flex justify-between items-center bg-custom-orange p-5">
-            <div to="/" className="text-2xl font-semibold text-white">Resume</div>
+            <div className="text-2xl font-semibold text-white">Resume</div>
             <button onClick={() => setIsNavOpen(!isNavOpen)}>
                 <FaBars className="text-2xl text-white"/>
             </button>
